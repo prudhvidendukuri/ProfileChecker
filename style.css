@@ -1,0 +1,14 @@
+.display{
+    display: flex;
+    margin: 20px auto;
+    width: 60%;
+    column-gap: 40px;
+    justify-content:flex-start;
+}
+#profileImg{
+    width: 350px;
+    height: auto;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}

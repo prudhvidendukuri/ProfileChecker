@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITE IMAGES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+
+<body>
+    <header class="container text-center" style="font-family: 'Poppins', sans-serif;font-weight: 600;">
+        <h1 class="">GITHUB PROFILE CHECKER</h1>
+    </header>
+    <main class="container-md text-center">
+        <input type="text" class="col-4" placeholder="NAME" id="profileName">
+        <button class="col-2" id="find">search</button>
+        
+    </main>
+    <section class="container display">
+        <div id="profilePhoto"> 
+            <a target="_blank" id="anchor"><img id="profileImg"></a>
+        </div>
+        <div id="profileDetails">
+            <p id="userName"></p>
+            <p id="follows"></p>
+            <p id="followers"></p>
+            <p id="repository"></p>
+        </div>
+         
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
