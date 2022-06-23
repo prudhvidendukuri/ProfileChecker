@@ -1,4 +1,7 @@
 /* new css only no bootstrap */
+body{
+    background-color: azure;
+}
 header {
     margin-top: 20px;
     display: flex;
