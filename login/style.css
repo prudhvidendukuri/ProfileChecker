@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 8px;
+}
+
+body {
+    background-color: #583dfe;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container {
+    border: 1px solid white;
+    margin: 0 auto;
+    background-color: #120652;
+    width: 85%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    row-gap: 20px;
+
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.loginContainer {
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-wrap: wrap;
+    column-gap: 120px;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+button {
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+button {
+    padding: 8px;
+    color: white;
+    background-color: #583dfe;
+    border-radius: 50px;
+}
+
+/* Image resizing */
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 300px;
+   height: max-content;
+}
